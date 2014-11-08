@@ -1,0 +1,192 @@
+# Logfile created on 2014-11-05 18:58:22 -0700 by logger.rb/36483
+I, [2014-11-05T18:58:22.090176 #5466]  INFO -- : 0:  rake (10.3.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rake-10.3.2.gemspec
+I, [2014-11-05T18:58:22.090794 #5466]  INFO -- : 0:  i18n (0.6.11) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/i18n-0.6.11.gemspec
+I, [2014-11-05T18:58:22.091159 #5466]  INFO -- : 0:  minitest (4.7.5) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/minitest-4.7.5.gemspec
+I, [2014-11-05T18:58:22.091508 #5466]  INFO -- : 0:  multi_json (1.10.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/multi_json-1.10.1.gemspec
+I, [2014-11-05T18:58:22.091859 #5466]  INFO -- : 0:  thread_safe (0.3.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/thread_safe-0.3.4.gemspec
+I, [2014-11-05T18:58:22.092218 #5466]  INFO -- : 0:  tzinfo (0.3.42) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/tzinfo-0.3.42.gemspec
+I, [2014-11-05T18:58:22.092574 #5466]  INFO -- : 0:  activesupport (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activesupport-4.0.10.gemspec
+I, [2014-11-05T18:58:22.092918 #5466]  INFO -- : 0:  builder (3.1.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/builder-3.1.4.gemspec
+I, [2014-11-05T18:58:22.093252 #5466]  INFO -- : 0:  erubis (2.7.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/erubis-2.7.0.gemspec
+I, [2014-11-05T18:58:22.093593 #5466]  INFO -- : 0:  rack (1.5.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rack-1.5.2.gemspec
+I, [2014-11-05T18:58:22.093935 #5466]  INFO -- : 0:  rack-test (0.6.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rack-test-0.6.2.gemspec
+I, [2014-11-05T18:58:22.094299 #5466]  INFO -- : 0:  actionpack (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/actionpack-4.0.10.gemspec
+I, [2014-11-05T18:58:22.094679 #5466]  INFO -- : 0:  mime-types (2.4.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/mime-types-2.4.3.gemspec
+I, [2014-11-05T18:58:22.095066 #5466]  INFO -- : 0:  mail (2.6.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/mail-2.6.3.gemspec
+I, [2014-11-05T18:58:22.095448 #5466]  INFO -- : 0:  actionmailer (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/actionmailer-4.0.10.gemspec
+I, [2014-11-05T18:58:22.095812 #5466]  INFO -- : 0:  activemodel (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activemodel-4.0.10.gemspec
+I, [2014-11-05T18:58:22.096829 #5466]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-11-05T18:58:22.097186 #5466]  INFO -- : 0:  arel (4.0.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/arel-4.0.2.gemspec
+I, [2014-11-05T18:58:22.097521 #5466]  INFO -- : 0:  activerecord (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-4.0.10.gemspec
+I, [2014-11-05T18:58:22.097887 #5466]  INFO -- : 0:  bundler (1.5.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/bundler-1.5.1.gemspec
+I, [2014-11-05T18:58:22.098501 #5466]  INFO -- : 0:  mini_portile (0.6.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/mini_portile-0.6.1.gemspec
+E, [2014-11-05T18:58:24.962157 #5466] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/bin/ruby extconf.rb --use-system-libraries
+checking if the C compiler accepts ... no
+checking if the C compiler accepts -Wno-error=unused-command-line-argument-hard-error-in-future... no
+Building nokogiri using system libraries.
+libxml2 version 2.6.21 or later is required!
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/bin/ruby
+	--help
+	--clean
+	--use-system-libraries
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--with-xml2-dir
+	--without-xml2-dir
+	--with-xml2-include
+	--without-xml2-include=${xml2-dir}/include
+	--with-xml2-lib
+	--without-xml2-lib=${xml2-dir}/lib
+	--with-libxml-2.0-config
+	--without-libxml-2.0-config
+	--with-pkg-config
+	--without-pkg-config
+	--with-xslt-dir
+	--without-xslt-dir
+	--with-xslt-include
+	--without-xslt-include=${xslt-dir}/include
+	--with-xslt-lib
+	--without-xslt-lib=${xslt-dir}/lib
+	--with-libxslt-config
+	--without-libxslt-config
+	--with-pkg-config
+	--without-pkg-config
+	--with-exslt-dir
+	--without-exslt-dir
+	--with-exslt-include
+	--without-exslt-include=${exslt-dir}/include
+	--with-exslt-lib
+	--without-exslt-lib=${exslt-dir}/lib
+	--with-libexslt-config
+	--without-libexslt-config
+	--with-pkg-config
+	--without-pkg-config
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/nokogiri-1.6.4 for inspection.
+Results logged to /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/extensions/x86_64-darwin-12/2.0.0-static/nokogiri-1.6.4/gem_make.out
+
+/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:37:in `block in build'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:232:in `install'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/raktam2786/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/bin/bundle:19:in `load'  \n/Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/bin/bundle:19:in `<main>'
+I, [2014-11-05T19:01:49.843003 #27194]  INFO -- : 0:  rake (10.3.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rake-10.3.2.gemspec
+I, [2014-11-05T19:01:49.859404 #27194]  INFO -- : 0:  i18n (0.6.11) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/i18n-0.6.11.gemspec
+I, [2014-11-05T19:01:49.859813 #27194]  INFO -- : 0:  minitest (4.7.5) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/minitest-4.7.5.gemspec
+I, [2014-11-05T19:01:49.860201 #27194]  INFO -- : 0:  multi_json (1.10.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/multi_json-1.10.1.gemspec
+I, [2014-11-05T19:01:49.860997 #27194]  INFO -- : 0:  thread_safe (0.3.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/thread_safe-0.3.4.gemspec
+I, [2014-11-05T19:01:49.861378 #27194]  INFO -- : 0:  tzinfo (0.3.42) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/tzinfo-0.3.42.gemspec
+I, [2014-11-05T19:01:49.861724 #27194]  INFO -- : 0:  activesupport (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activesupport-4.0.10.gemspec
+I, [2014-11-05T19:01:49.862064 #27194]  INFO -- : 0:  builder (3.1.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/builder-3.1.4.gemspec
+I, [2014-11-05T19:01:49.862396 #27194]  INFO -- : 0:  erubis (2.7.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/erubis-2.7.0.gemspec
+I, [2014-11-05T19:01:49.862730 #27194]  INFO -- : 0:  rack (1.5.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rack-1.5.2.gemspec
+I, [2014-11-05T19:01:49.863065 #27194]  INFO -- : 0:  rack-test (0.6.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rack-test-0.6.2.gemspec
+I, [2014-11-05T19:01:49.863407 #27194]  INFO -- : 0:  actionpack (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/actionpack-4.0.10.gemspec
+I, [2014-11-05T19:01:49.863758 #27194]  INFO -- : 0:  mime-types (2.4.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/mime-types-2.4.3.gemspec
+I, [2014-11-05T19:01:49.864111 #27194]  INFO -- : 0:  mail (2.6.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/mail-2.6.3.gemspec
+I, [2014-11-05T19:01:49.864476 #27194]  INFO -- : 0:  actionmailer (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/actionmailer-4.0.10.gemspec
+I, [2014-11-05T19:01:49.864827 #27194]  INFO -- : 0:  activemodel (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activemodel-4.0.10.gemspec
+I, [2014-11-05T19:01:49.865203 #27194]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-11-05T19:01:49.865549 #27194]  INFO -- : 0:  arel (4.0.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/arel-4.0.2.gemspec
+I, [2014-11-05T19:01:49.865901 #27194]  INFO -- : 0:  activerecord (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-4.0.10.gemspec
+I, [2014-11-05T19:01:49.866231 #27194]  INFO -- : 0:  bundler (1.5.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/bundler-1.5.1.gemspec
+I, [2014-11-05T19:01:49.866570 #27194]  INFO -- : 0:  mini_portile (0.6.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/mini_portile-0.6.1.gemspec
+I, [2014-11-05T19:01:49.866907 #27194]  INFO -- : 0:  nokogiri (1.6.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/nokogiri-1.6.4.gemspec
+I, [2014-11-05T19:01:49.869398 #27194]  INFO -- : 0:  xpath (2.0.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/xpath-2.0.0.gemspec
+I, [2014-11-05T19:01:49.869795 #27194]  INFO -- : 0:  capybara (2.1.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/capybara-2.1.0.gemspec
+I, [2014-11-05T19:01:49.870137 #27194]  INFO -- : 0:  coffee-script-source (1.8.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-script-source-1.8.0.gemspec
+I, [2014-11-05T19:01:49.870470 #27194]  INFO -- : 0:  execjs (2.2.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/execjs-2.2.2.gemspec
+I, [2014-11-05T19:01:49.870897 #27194]  INFO -- : 0:  coffee-script (2.3.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-script-2.3.0.gemspec
+I, [2014-11-05T19:01:49.871388 #27194]  INFO -- : 0:  thor (0.19.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/thor-0.19.1.gemspec
+I, [2014-11-05T19:01:51.252807 #27194]  INFO -- : 0:  railties (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/railties-4.0.10.gemspec
+I, [2014-11-05T19:01:51.253607 #27194]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-11-05T19:01:51.254055 #27194]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-11-05T19:01:51.254570 #27194]  INFO -- : 0:  hike (1.2.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/hike-1.2.3.gemspec
+I, [2014-11-05T19:01:51.255008 #27194]  INFO -- : 0:  jbuilder (1.5.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/jbuilder-1.5.3.gemspec
+I, [2014-11-05T19:01:51.255394 #27194]  INFO -- : 0:  jquery-rails (3.1.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/jquery-rails-3.1.2.gemspec
+I, [2014-11-05T19:01:51.255777 #27194]  INFO -- : 0:  json (1.8.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/json-1.8.1.gemspec
+I, [2014-11-05T19:01:51.256346 #27194]  INFO -- : 0:  tilt (1.4.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/tilt-1.4.1.gemspec
+I, [2014-11-05T19:01:52.103789 #27194]  INFO -- : 0:  sprockets (2.11.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sprockets-2.11.3.gemspec
+I, [2014-11-05T19:01:52.971706 #27194]  INFO -- : 0:  sprockets-rails (2.2.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sprockets-rails-2.2.0.gemspec
+I, [2014-11-05T19:01:57.201281 #27194]  INFO -- : 0:  rails (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rails-4.0.10.gemspec
+I, [2014-11-05T19:01:57.202137 #27194]  INFO -- : 0:  rdoc (4.1.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rdoc-4.1.2.gemspec
+I, [2014-11-05T19:01:57.202609 #27194]  INFO -- : 0:  rspec-core (2.13.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-core-2.13.1.gemspec
+I, [2014-11-05T19:01:57.203086 #27194]  INFO -- : 0:  rspec-expectations (2.13.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-expectations-2.13.0.gemspec
+I, [2014-11-05T19:01:57.203533 #27194]  INFO -- : 0:  rspec-mocks (2.13.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-mocks-2.13.1.gemspec
+I, [2014-11-05T19:01:57.204145 #27194]  INFO -- : 0:  rspec-rails (2.13.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-rails-2.13.1.gemspec
+I, [2014-11-05T19:01:57.204565 #27194]  INFO -- : 0:  sass (3.2.19) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sass-3.2.19.gemspec
+I, [2014-11-05T19:01:58.672027 #27194]  INFO -- : 0:  sass-rails (4.0.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sass-rails-4.0.4.gemspec
+I, [2014-11-05T19:01:58.674140 #27194]  INFO -- : 0:  sdoc (0.4.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sdoc-0.4.1.gemspec
+I, [2014-11-05T19:02:04.121891 #27194]  INFO -- : 0:  sqlite3 (1.3.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sqlite3-1.3.10.gemspec
+I, [2014-11-05T19:02:04.122742 #27194]  INFO -- : 0:  turbolinks (2.5.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/turbolinks-2.5.1.gemspec
+I, [2014-11-05T19:02:04.123232 #27194]  INFO -- : 0:  uglifier (2.5.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/uglifier-2.5.3.gemspec
+I, [2014-11-07T17:13:56.868624 #59788]  INFO -- : 0:  rake (10.3.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rake-10.3.2.gemspec
+I, [2014-11-07T17:13:56.899854 #59788]  INFO -- : 0:  i18n (0.6.11) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/i18n-0.6.11.gemspec
+I, [2014-11-07T17:13:56.900675 #59788]  INFO -- : 0:  minitest (4.7.5) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/minitest-4.7.5.gemspec
+I, [2014-11-07T17:13:56.901240 #59788]  INFO -- : 0:  multi_json (1.10.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/multi_json-1.10.1.gemspec
+I, [2014-11-07T17:13:56.901721 #59788]  INFO -- : 0:  thread_safe (0.3.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/thread_safe-0.3.4.gemspec
+I, [2014-11-07T17:13:56.902188 #59788]  INFO -- : 0:  tzinfo (0.3.42) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/tzinfo-0.3.42.gemspec
+I, [2014-11-07T17:13:56.902641 #59788]  INFO -- : 0:  activesupport (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activesupport-4.0.10.gemspec
+I, [2014-11-07T17:13:56.903100 #59788]  INFO -- : 0:  builder (3.1.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/builder-3.1.4.gemspec
+I, [2014-11-07T17:13:56.903551 #59788]  INFO -- : 0:  erubis (2.7.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/erubis-2.7.0.gemspec
+I, [2014-11-07T17:13:56.903999 #59788]  INFO -- : 0:  rack (1.5.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rack-1.5.2.gemspec
+I, [2014-11-07T17:13:56.904445 #59788]  INFO -- : 0:  rack-test (0.6.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rack-test-0.6.2.gemspec
+I, [2014-11-07T17:13:56.904908 #59788]  INFO -- : 0:  actionpack (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/actionpack-4.0.10.gemspec
+I, [2014-11-07T17:13:56.905360 #59788]  INFO -- : 0:  mime-types (2.4.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/mime-types-2.4.3.gemspec
+I, [2014-11-07T17:13:56.905808 #59788]  INFO -- : 0:  mail (2.6.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/mail-2.6.3.gemspec
+I, [2014-11-07T17:13:56.906266 #59788]  INFO -- : 0:  actionmailer (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/actionmailer-4.0.10.gemspec
+I, [2014-11-07T17:13:56.906721 #59788]  INFO -- : 0:  activemodel (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activemodel-4.0.10.gemspec
+I, [2014-11-07T17:13:56.907166 #59788]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-11-07T17:13:56.907668 #59788]  INFO -- : 0:  arel (4.0.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/arel-4.0.2.gemspec
+I, [2014-11-07T17:13:56.908136 #59788]  INFO -- : 0:  activerecord (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/activerecord-4.0.10.gemspec
+I, [2014-11-07T17:13:56.908761 #59788]  INFO -- : 0:  bundler (1.5.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/bundler-1.5.1.gemspec
+I, [2014-11-07T17:13:56.909185 #59788]  INFO -- : 0:  mini_portile (0.6.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/mini_portile-0.6.1.gemspec
+I, [2014-11-07T17:13:56.909593 #59788]  INFO -- : 0:  nokogiri (1.6.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/nokogiri-1.6.4.gemspec
+I, [2014-11-07T17:13:56.910017 #59788]  INFO -- : 0:  xpath (2.0.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/xpath-2.0.0.gemspec
+I, [2014-11-07T17:13:56.910416 #59788]  INFO -- : 0:  capybara (2.1.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/capybara-2.1.0.gemspec
+I, [2014-11-07T17:13:56.910821 #59788]  INFO -- : 0:  coffee-script-source (1.8.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-script-source-1.8.0.gemspec
+I, [2014-11-07T17:13:56.911231 #59788]  INFO -- : 0:  execjs (2.2.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/execjs-2.2.2.gemspec
+I, [2014-11-07T17:13:56.911582 #59788]  INFO -- : 0:  coffee-script (2.3.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-script-2.3.0.gemspec
+I, [2014-11-07T17:13:56.911941 #59788]  INFO -- : 0:  thor (0.19.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/thor-0.19.1.gemspec
+I, [2014-11-07T17:13:56.912307 #59788]  INFO -- : 0:  railties (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/railties-4.0.10.gemspec
+I, [2014-11-07T17:13:56.912657 #59788]  INFO -- : 0:  coffee-rails (4.0.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-11-07T17:13:56.913081 #59788]  INFO -- : 0:  diff-lcs (1.2.5) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/diff-lcs-1.2.5.gemspec
+I, [2014-11-07T17:13:56.913439 #59788]  INFO -- : 0:  hike (1.2.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/hike-1.2.3.gemspec
+I, [2014-11-07T17:13:56.913796 #59788]  INFO -- : 0:  jbuilder (1.5.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/jbuilder-1.5.3.gemspec
+I, [2014-11-07T17:13:56.914143 #59788]  INFO -- : 0:  jquery-rails (3.1.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/jquery-rails-3.1.2.gemspec
+I, [2014-11-07T17:13:56.914490 #59788]  INFO -- : 0:  json (1.8.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/json-1.8.1.gemspec
+I, [2014-11-07T17:13:56.914836 #59788]  INFO -- : 0:  tilt (1.4.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/tilt-1.4.1.gemspec
+I, [2014-11-07T17:13:56.915198 #59788]  INFO -- : 0:  sprockets (2.11.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sprockets-2.11.3.gemspec
+I, [2014-11-07T17:13:56.915551 #59788]  INFO -- : 0:  sprockets-rails (2.2.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sprockets-rails-2.2.0.gemspec
+I, [2014-11-07T17:13:56.915902 #59788]  INFO -- : 0:  rails (4.0.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rails-4.0.10.gemspec
+I, [2014-11-07T17:13:56.916251 #59788]  INFO -- : 0:  rdoc (4.1.2) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rdoc-4.1.2.gemspec
+I, [2014-11-07T17:13:56.916591 #59788]  INFO -- : 0:  rspec-core (2.13.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-core-2.13.1.gemspec
+I, [2014-11-07T17:13:56.917026 #59788]  INFO -- : 0:  rspec-expectations (2.13.0) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-expectations-2.13.0.gemspec
+I, [2014-11-07T17:13:56.917616 #59788]  INFO -- : 0:  rspec-mocks (2.13.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-mocks-2.13.1.gemspec
+I, [2014-11-07T17:13:56.918148 #59788]  INFO -- : 0:  rspec-rails (2.13.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/rspec-rails-2.13.1.gemspec
+I, [2014-11-07T17:13:56.918656 #59788]  INFO -- : 0:  sass (3.2.19) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sass-3.2.19.gemspec
+I, [2014-11-07T17:13:56.919423 #59788]  INFO -- : 0:  sass-rails (4.0.4) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sass-rails-4.0.4.gemspec
+I, [2014-11-07T17:13:56.919786 #59788]  INFO -- : 0:  sdoc (0.4.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sdoc-0.4.1.gemspec
+I, [2014-11-07T17:13:56.920148 #59788]  INFO -- : 0:  sqlite3 (1.3.10) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/sqlite3-1.3.10.gemspec
+I, [2014-11-07T17:13:56.920513 #59788]  INFO -- : 0:  turbolinks (2.5.1) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/turbolinks-2.5.1.gemspec
+I, [2014-11-07T17:13:56.920861 #59788]  INFO -- : 0:  uglifier (2.5.3) from /Users/raktam2786/.rvm/gems/ruby-2.0.0-p247/specifications/uglifier-2.5.3.gemspec
